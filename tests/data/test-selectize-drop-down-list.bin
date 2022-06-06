@@ -26,7 +26,7 @@
 <option value="2">item3</option>
 </select><script src="/2/jquery.js"></script>
 <script src="/0/js/standalone/selectize.js"></script>
-<script type="text/javascript">jQuery(document).ready(function () {
+<script>jQuery(function ($) {
 jQuery('#model-test').selectize(null);
 jQuery('#w0').selectize(null);
 jQuery('#custom-id').selectize(null);

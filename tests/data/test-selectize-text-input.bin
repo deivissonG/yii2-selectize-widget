@@ -11,7 +11,7 @@
 <input type="text" id="custom-id" name="test">
 <input type="text" id="w4" name="test"><script src="/2/jquery.js"></script>
 <script src="/0/js/standalone/selectize.js"></script>
-<script type="text/javascript">jQuery(document).ready(function () {
+<script>jQuery(function ($) {
 jQuery('#model-test').selectize(null);
 jQuery('#w3').selectize(null);
 jQuery('#custom-id').selectize(null);
